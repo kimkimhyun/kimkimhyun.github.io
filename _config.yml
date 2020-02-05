@@ -32,9 +32,15 @@ breadcrumb_home_label : "Home"
 breadcrumb_separator  : "/"
 words_per_minute         : 200
 comments:
+<<<<<<< HEAD
   provider               : disqus
   disqus:
     shortname            : http-kimkimhyun-github-io
+=======
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : disqus_frWxePGI4o # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+>>>>>>> cd8fe681c91836e819824ae93bb61ab9a094bb88
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
