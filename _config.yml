@@ -25,22 +25,22 @@ url                      : "https://kimkimhyun.github.io/" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kimkimhyun/kimkimhyun.github.io/" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/bio-photo.jpg
+logo                     : #
 masthead_title           : "" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            :  true # true, false (default)
 breadcrumb_home_label : "Home"
 breadcrumb_separator  : "/"
 words_per_minute         : 200
 comments:
-<<<<<<< HEAD
+# <<<<<<< HEAD
   provider               : disqus
   disqus:
     shortname            : http-kimkimhyun-github-io
-=======
-  provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : disqus_frWxePGI4o # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
->>>>>>> cd8fe681c91836e819824ae93bb61ab9a094bb88
+# =======
+#   provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+#   disqus:
+#     shortname            : disqus_frWxePGI4o # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+# >>>>>>> cd8fe681c91836e819824ae93bb61ab9a094bb88
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
